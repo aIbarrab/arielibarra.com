@@ -1358,7 +1358,8 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #323944; }
+    background-color: #33c4e8;
+    height: 5px;  }
 
 #logo {
   margin: 0.75em 0; }

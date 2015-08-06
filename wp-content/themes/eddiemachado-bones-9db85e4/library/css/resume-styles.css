@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Market Deco Regular;
+    src: url(Market_Deco.ttf);
+}
+
+@font-face {
+    font-family: Exo Bold;
+    src: url(Exo-Bold.otf);
+}
+
+@font-face {
+    font-family: Exo Light;
+    src: url(Exo-Light.otf);
+}
+
+*{
+    color: #fbf7e0;
+    font-family: "Exo Light", Exo, Arial, Helvetica;
+    font-size: 12pt;
+}
+
+.my-name{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 47px;
+    margin-bottom: 0;
+}
+
+.position{
+    font-family: "Market Deco Regular";
+    text-align: center;
+    margin-top: 0;
+}
+
+.passport-photo{
+    width: 100%;
+    margin: 35px 0;
+}
+
+.job-title span {
+    color: #fbf7e0;
+    font-family: "Exo Bold", Exo, Arial, Helvetica;
+    font-size: 13pt;
+    text-transform: uppercase;
+}
+
+h2.light-blue{
+    font-size: 18pt;
+}
+
+h2.light-blue img{
+    width: 50px;
+    height: 49px;
+}
+
+h2.light-blue::after{
+    content: "";
+    float: left;
+    width: 100%;
+    background: url("/wp-content/themes/eddiemachado-bones-9db85e4/library/images/titles_bg.png") 19px center;
+    height: 43px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.light-blue{
+    font-weight: bold;
+    color: #33c4e8;
+    font-family: "Market Deco Regular";
+}
+
+.info-box{
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.left-col, .info-box{
+    background-color: #525354;
+}
+
+.right-col{
+    background-color: #414142;
+}
+
+.info-box li img {
+    width: 35px;
+    height: 35px;
+    top: -2px;
+    position: relative;
+}
+
+.info-box li {
+    line-height: 30px;
+    height: 25px;
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
+}
