@@ -69,13 +69,17 @@ h2.light-blue::after{
     font-family: "Market Deco Regular";
 }
 
-.info-box{
+.info-box > ul {
     float: left;
-    padding-top: 25px;
-    padding-bottom: 5px;
+    padding: 25px 20px 5px;
+    margin: 0;
 }
 
-.left-col, .info-box{
+.info-box a {
+    color: #FFF;
+}
+
+.left-col, .info-box > ul{
     background-color: #525354;
 }
 
