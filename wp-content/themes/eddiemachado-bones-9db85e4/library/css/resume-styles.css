@@ -14,9 +14,13 @@
 }
 
 *{
-    color: #fbf7e0;
+    color: #000;
     font-family: "Exo Light", Exo, Arial, Helvetica;
     font-size: 12pt;
+}
+
+body{
+    background-color: #FFF;
 }
 
 .my-name{
@@ -38,7 +42,7 @@
 }
 
 .job-title span {
-    color: #fbf7e0;
+    color: #000;
     font-family: "Exo Bold", Exo, Arial, Helvetica;
     font-size: 13pt;
     text-transform: uppercase;
@@ -48,6 +52,7 @@ h2.light-blue{
     font-size: 18pt;
     position: relative;
     overflow: hidden;
+    margin-bottom: 25px;
 }
 
 h2.light-blue img{
@@ -75,6 +80,10 @@ h2.skills.light-blue::after {
     font-family: "Market Deco Regular";
 }
 
+.info-box{
+    margin-top: 20px;
+}
+
 .info-box > ul {
     float: left;
     padding: 25px 20px 5px;
@@ -82,15 +91,11 @@ h2.skills.light-blue::after {
 }
 
 .info-box a {
-    color: #FFF;
-}
-
-.left-col, .info-box > ul{
-    background-color: #525354;
+    color: #000;
 }
 
 .right-col{
-    background-color: #414142;
+    background-color: #F5F5F5;
 }
 
 .info-box li img {
@@ -110,4 +115,10 @@ h2.skills.light-blue::after {
 
 .skills-list{
     line-height: 40px;
+}
+
+.separator{
+    float: left;
+    width: 100%;
+    height: 20px;
 }
