@@ -1359,7 +1359,9 @@ HEADER STYLES
 *********************/
 .header {
     background-color: #33c4e8;
-    height: 10px;  }
+    z-index: 1;
+    position: relative;
+    height: 5px;  }
 
 #logo {
   margin: 0.75em 0; }
