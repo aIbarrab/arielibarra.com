@@ -46,6 +46,8 @@
 
 h2.light-blue{
     font-size: 18pt;
+    position: relative;
+    overflow: hidden;
 }
 
 h2.light-blue img{
@@ -61,6 +63,10 @@ h2.light-blue::after{
     height: 43px;
     position: absolute;
     margin-left: 10px;
+}
+
+h2.skills.light-blue::after {
+    height: 26px;
 }
 
 .light-blue{
@@ -100,4 +106,8 @@ h2.light-blue::after{
     float: left;
     width: 100%;
     margin-bottom: 25px;
+}
+
+.skills-list{
+    line-height: 40px;
 }

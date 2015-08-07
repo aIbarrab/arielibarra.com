@@ -104,7 +104,34 @@
                         <div class="col-md-12">
                             <h2 class="skills light-blue">Skills</h2>
 	                        <p class="job-title"><span>Professional skills</span></p>
+                            <p class="skills-list">
+                                JS + jQuery + <b>RequireJS</b> + OOP JS +
+
+                                CSS + CSS3 + Bootstrap + HTML5 +
+
+                                WordPress + <b>Laravel</b> + HTML +
+
+                                <b>Responsive</b> Web Development +
+
+                                PHP + C# + JAVA + MySQL + <b>GIT</b> +
+
+                                <b>Git Branching Model</b> + SVN +
+
+                                <b>Javascript Design Patterns</b> + MVC
+                            </p>
 	                        <hr>
+                        </div>
+                        <div class="col-md-12">
+                            <p>WHAT THEY SAY:</p>
+                            <p>
+                                Ana Victoria Chacon<br>
+                                Senior SQA Analyst at Prodigious
+                            </p>
+                            <p>
+                                "Ariel is always looking for challenging projects that let him improve his skills and
+                                knowledge, he enjoys learning new technologies and he is always ready to help others on
+                                the daily work."
+                            </p>
                         </div>
                     </div>
                 </div>
