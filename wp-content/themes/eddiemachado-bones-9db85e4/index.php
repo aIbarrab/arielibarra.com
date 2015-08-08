@@ -59,15 +59,17 @@
                         </div>
                         <div class="col-md-12">
                             <p>WHAT THEY SAY:</p>
-                            <p>
-                                Ana Victoria Chacon<br>
-                                Senior SQA Analyst at Prodigious
-                            </p>
-                            <p>
-                                "Ariel is always looking for challenging projects that let him improve his skills and
-                                knowledge, he enjoys learning new technologies and he is always ready to help others on
-                                the daily work."
-                            </p>
+                            <blockquote>
+                                <p>
+                                    Ariel is always looking for challenging projects that let him improve his skills and
+                                    knowledge, he enjoys learning new technologies and he is always ready to help others on
+                                    the daily work.
+                                </p>
+                                <cite>
+                                    Ana Victoria Chacon
+                                    <span>Senior SQA Analyst at Prodigious</span>
+                                </cite>
+                            </blockquote>
                         </div>
                     </div>
                 </div>

@@ -182,3 +182,56 @@ a.download {
     border-right: 131px solid transparent;
     border-bottom: 46px solid #FFF;
 }
+
+blockquote:before {
+    content:'\201C';
+    margin:1em -.15em 1em -.15em	;
+    color:#33a8e5;
+    padding:.15em -.5em -.5em -.5em;
+    font-size:60px;
+    line-height:12px;
+    vertical-align:middle;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+blockquote {
+    background-color: #EAEAEA;
+    padding: 1.5em 1em .5em 1em;
+    width: 100%;
+    border: 0px solid #000;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    color: #f2f2f2;
+}
+
+blockquote p {
+    margin:0;
+    padding:0;
+    line-height: 25px;
+}
+
+cite:before {
+    content:'\201D';
+    display:block;
+    text-align:right;
+    font-style:normal;
+    margin:0;
+    color:#33a8e5;
+    padding-left: 5px;
+    vertical-align:middle;
+    font-size:60px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+cite {
+    text-align:right;
+    display:block;
+    font-style:italic;
+    color: #000;
+}
+
+cite span {
+    font-size: 12px;
+}
