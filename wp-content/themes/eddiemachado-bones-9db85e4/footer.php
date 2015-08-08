@@ -18,7 +18,22 @@
 						)); ?>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> arielibarra.com</p>
+<!--					<p class="source-org copyright">&copy; --><?php //echo date('Y'); ?><!-- arielibarra.com</p>-->
+                    <ul class="follow-me">
+                        <li>&copy; <?php echo date('Y'); ?> arielibarra.com</li>
+                        <li>|</li>
+                        <li>follow me on</li>
+                        <li>
+                            <a target="_blank" href="https://github.com/aIbarrab">
+                                <img class="icon" src="<?php echo get_template_directory_uri(); ?>/library/images/github_icon_white.png" alt=""/>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://twitter.com/aibarrab">
+                                <img class="icon" src="<?php echo get_template_directory_uri(); ?>/library/images/twitter_icon_white.png" alt=""/>
+                            </a>
+                        </li>
+                    </ul>
 
 				</div>
 

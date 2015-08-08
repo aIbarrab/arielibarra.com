@@ -1358,10 +1358,11 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
+    width: 100%;
     background-color: #33c4e8;
     z-index: 1;
-    position: relative;
-    height: 5px;  }
+    position: fixed;
+    border-bottom: 2px solid #2BA5C3; }
 
 #logo {
   margin: 0.75em 0; }

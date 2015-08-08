@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container">
+<div id="content-body" class="container">
     <div class="row">
         <div class="col-md-3 right-col">
             <div class="row">
@@ -184,6 +184,11 @@
                                 <span class="glyphicon glyphicon-save" aria-hidden="true"></span>
                                 Get PDF Version
                             </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <?php get_sidebar(); ?>
                         </div>
                     </div>
                 </div>
