@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="content-body" class="container">
+<div id="content-body" class="container-fluid">
     <div class="row">
         <div class="col-md-3 right-col">
             <div class="row">

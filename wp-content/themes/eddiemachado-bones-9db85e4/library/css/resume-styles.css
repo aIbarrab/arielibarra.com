@@ -14,13 +14,13 @@
 }
 
 *{
-    color: #000;
+    color: #FFF;
     font-family: "Exo Light", Exo, Arial, Helvetica;
     font-size: 12pt;
 }
 
 body{
-    background-color: #FFF;
+    background-color: #525354;
 }
 
 .nav {
@@ -36,7 +36,7 @@ body{
 }
 
 #content-body{
-    padding-top: 34px;
+    padding-top: 32px;
 }
 
 hr {
@@ -52,14 +52,14 @@ h4{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 42px;
     margin-bottom: 0;
-    color: #4A4A4A;
+    color: #FFF;
 }
 
 .position{
     font-family: "Market Deco Regular";
     text-align: center;
     margin-top: 0;
-    color: #4A4A4A;
+    color: #FFF;
 }
 
 .passport-photo{
@@ -70,7 +70,7 @@ h4{
 }
 
 .job-title span {
-    color: #4A4A4A;
+    color: #FFF;
     font-family: "Exo Bold", Exo, Arial, Helvetica;
     font-size: 13pt;
     text-transform: uppercase;
@@ -117,21 +117,20 @@ h2.skills.light-blue::after {
     float: left;
     padding: 25px 20px 5px;
     margin: 0;
-    background-color: #EAEAEA;
+    background-color: #514f50;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
 
 .info-box a {
-    color: #000;
+    color: #FFF;
 }
 
 .right-col{
-    background-color: #F1F1F1;
+    background-color: #414142;
     padding-bottom: 45px;
-    margin-bottom: 30px;
-    box-shadow: 0px -3px 5px 1px #D6D6D6;
+    min-height: 1700px;
 }
 
 .info-box li img {
@@ -194,13 +193,6 @@ a.download {
     color: #FF0000;
 }
 
-.right-col::after {
-    content: '';
-    border-left: 131px solid transparent;
-    border-right: 131px solid transparent;
-    border-bottom: 46px solid #FFF;
-}
-
 blockquote:before {
     content:'\201C';
     margin:1em -.15em 1em -.15em	;
@@ -214,7 +206,7 @@ blockquote:before {
 }
 
 blockquote {
-    background-color: #EAEAEA;
+    background-color: #514f50;
     padding: 1.5em 1em 1.5em 1em;
     width: 100%;
     border: 0px solid #000;
@@ -249,7 +241,8 @@ cite {
     text-align:right;
     display:block;
     font-style:italic;
-    color: #000;
+    color: #FFF;
+    font-weight: bold;
 }
 
 cite span {
@@ -284,4 +277,46 @@ ul.follow-me li{
 #sidebar1 .widget {
     float: left;
     width: 33.3%;
+}
+
+#sidebar1 .widget li a{
+    color: #FFF;
+}
+
+#sidebar1 .widget li{
+    background-color: #676566;
+    padding: 3px 10px;
+}
+
+ul.media-links {
+    float: left;
+}
+
+ul.media-links li{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+ul.media-links li a{
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #FFF;
+    background: url("/wp-content/themes/eddiemachado-bones-9db85e4/library/images/media-icons.png");
+}
+
+ul.media-links .github a {
+    background-position: 0 -44px;
+}
+
+ul.media-links .linkedin a {
+    background-position: 0 -22px;
+}
+
+ul.media-links .twitter a {
+    background-position: 0 -110px;
+}
+
+ul.media-links .email a {
+    background-position: 0 -66px;
 }

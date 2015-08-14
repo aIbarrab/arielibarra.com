@@ -1359,10 +1359,9 @@ HEADER STYLES
 *********************/
 .header {
     width: 100%;
-    background-color: #33c4e8;
+    background-color: #32393B;
     z-index: 1;
-    position: fixed;
-    border-bottom: 2px solid #2BA5C3; }
+    position: fixed; }
 
 #logo {
   margin: 0.75em 0; }
@@ -1739,7 +1738,7 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #323944;
+  background-color: #32393B;
   color: #f8f9fa; }
 
 /*
@@ -1932,7 +1931,9 @@ you can add resource intensive styles.
     margin-top: 2.2em; }
 
   .widgettitle {
-    border-bottom: 2px solid #444;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #FFF;
     margin-bottom: 0.75em; }
 
   .widget {
