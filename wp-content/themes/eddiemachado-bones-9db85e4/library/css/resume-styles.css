@@ -14,13 +14,29 @@
 }
 
 *{
-    color: #000;
+    color: #FFF;
     font-family: "Exo Light", Exo, Arial, Helvetica;
     font-size: 12pt;
 }
 
 body{
-    background-color: #FFF;
+    background-color: #525354;
+}
+
+.nav {
+    float: right;
+}
+
+.nav > li > a:hover{
+    background-color: #2DAECE;
+}
+
+.nav > li > a{
+    padding: 5px 15px;
+}
+
+#content-body{
+    padding-top: 32px;
 }
 
 hr {
@@ -36,14 +52,14 @@ h4{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 42px;
     margin-bottom: 0;
-    color: #4A4A4A;
+    color: #FFF;
 }
 
 .position{
     font-family: "Market Deco Regular";
     text-align: center;
     margin-top: 0;
-    color: #4A4A4A;
+    color: #FFF;
 }
 
 .passport-photo{
@@ -54,7 +70,7 @@ h4{
 }
 
 .job-title span {
-    color: #4A4A4A;
+    color: #FFF;
     font-family: "Exo Bold", Exo, Arial, Helvetica;
     font-size: 13pt;
     text-transform: uppercase;
@@ -101,19 +117,20 @@ h2.skills.light-blue::after {
     float: left;
     padding: 25px 20px 5px;
     margin: 0;
-    background-color: #EAEAEA;
+    background-color: #514f50;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius: 5px;
 }
 
 .info-box a {
-    color: #000;
+    color: #FFF;
 }
 
 .right-col{
-    background-color: #F1F1F1;
+    background-color: #414142;
     padding-bottom: 45px;
-    margin-bottom: 30px;
-    box-shadow: 0px -3px 5px 1px #D6D6D6;
+    min-height: 1700px;
 }
 
 .info-box li img {
@@ -138,6 +155,7 @@ h2.skills.light-blue::after {
 .skills-list{
     line-height: 35px;
     font-size: 11pt;
+    text-align: justify;
 }
 
 .separator{
@@ -146,7 +164,7 @@ h2.skills.light-blue::after {
     height: 20px;
 }
 
-#resume{
+#resume p:not(.job-title){
     text-align: justify;
 }
 
@@ -167,18 +185,143 @@ p.source-org.copyright {
 }
 
 a.download {
-    margin: 0 auto;
+    margin: 70px auto;
     width: 150px;
     float: none;
     display: block;
-    margin-top: 70px;
     font-weight: bold;
     color: #FF0000;
 }
 
-.right-col::after {
-    content: '';
-    border-left: 131px solid transparent;
-    border-right: 131px solid transparent;
-    border-bottom: 46px solid #FFF;
+blockquote:before {
+    content:'\201C';
+    margin:1em -.15em 1em -.15em	;
+    color:#33a8e5;
+    padding-left: 5px;
+    font-size:60px;
+    line-height:12px;
+    vertical-align:middle;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+blockquote {
+    background-color: #514f50;
+    padding: 1.5em 1em 1.5em 1em;
+    width: 100%;
+    border: 0px solid #000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #f2f2f2;
+}
+
+blockquote p {
+    margin:0;
+    padding:0;
+    line-height: 25px;
+    text-align: center;
+}
+
+cite:before {
+    content:'\201D';
+    display:block;
+    text-align:right;
+    font-style:normal;
+    margin:0;
+    color:#33a8e5;
+    padding-left: 5px;
+    vertical-align:middle;
+    font-size:60px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+cite {
+    text-align:right;
+    display:block;
+    font-style:italic;
+    color: #FFF;
+    font-weight: bold;
+}
+
+cite span {
+    font-size: 12px;
+    clear: both;
+    float: right;
+    width: 100%;
+}
+
+.icon{
+    width: 2em;
+}
+
+ul.follow-me{
+    font-weight: bold;
+    margin: 0 auto;
+    width: 380px;
+    line-height: 30px;
+}
+
+ul.follow-me li{
+    color: #FFF;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+#sidebar1 {
+    float: left;
+    width: 100%;
+}
+
+#sidebar1 .widget {
+    float: left;
+    width: 33.3%;
+}
+
+#sidebar1 .widget li a{
+    color: #FFF;
+}
+
+#sidebar1 .widget li{
+    background-color: #676566;
+    padding: 3px 10px;
+}
+
+.nav>li{
+    float: left;
+}
+
+ul.media-links {
+    float: left;
+}
+
+ul.media-links li{
+    margin-right: 5px;
+    margin-top: 5px;
+    float: left;
+}
+
+ul.media-links li a{
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #FFF;
+    background: url("/wp-content/themes/eddiemachado-bones-9db85e4/library/images/media-icons.png");
+}
+
+ul.media-links .github a {
+    background-position: 0 -44px;
+}
+
+ul.media-links .linkedin a {
+    background-position: 0 -22px;
+}
+
+ul.media-links .twitter a {
+    background-position: 0 -110px;
+}
+
+ul.media-links .email a {
+    background-position: 0 -66px;
 }

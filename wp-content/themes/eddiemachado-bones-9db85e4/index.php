@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container">
+<div id="content-body" class="container-fluid">
     <div class="row">
         <div class="col-md-3 right-col">
             <div class="row">
@@ -59,15 +59,17 @@
                         </div>
                         <div class="col-md-12">
                             <p>WHAT THEY SAY:</p>
-                            <p>
-                                Ana Victoria Chacon<br>
-                                Senior SQA Analyst at Prodigious
-                            </p>
-                            <p>
-                                "Ariel is always looking for challenging projects that let him improve his skills and
-                                knowledge, he enjoys learning new technologies and he is always ready to help others on
-                                the daily work."
-                            </p>
+                            <blockquote>
+                                <p>
+                                    Ariel is always looking for challenging projects that let him improve his skills and
+                                    knowledge, he enjoys learning new technologies and he is always ready to help others on
+                                    the daily work.
+                                </p>
+                                <cite>
+                                    Ana Victoria Chacon
+                                    <span>Senior SQA Analyst at Prodigious</span>
+                                </cite>
+                            </blockquote>
                         </div>
                     </div>
                 </div>
@@ -182,6 +184,11 @@
                                 <span class="glyphicon glyphicon-save" aria-hidden="true"></span>
                                 Get PDF Version
                             </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <?php get_sidebar(); ?>
                         </div>
                     </div>
                 </div>
