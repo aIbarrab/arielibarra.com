@@ -288,6 +288,10 @@ ul.follow-me li{
     padding: 3px 10px;
 }
 
+.nav>li{
+    float: left;
+}
+
 ul.media-links {
     float: left;
 }
@@ -295,6 +299,7 @@ ul.media-links {
 ul.media-links li{
     margin-right: 5px;
     margin-top: 5px;
+    float: left;
 }
 
 ul.media-links li a{
