@@ -39,6 +39,12 @@ body{
     padding-top: 32px;
 }
 
+.single #content-body,
+.archive #content-body,
+.page #content-body{
+    padding-top: 58px;
+}
+
 hr {
     border-top: 1px solid #999;
 }
@@ -130,7 +136,7 @@ h2.skills.light-blue::after {
 .right-col{
     background-color: #414142;
     padding-bottom: 45px;
-    min-height: 1700px;
+    min-height: 1800px;
 }
 
 .info-box li img {
@@ -281,11 +287,35 @@ ul.follow-me li{
 
 #sidebar1 .widget li a{
     color: #FFF;
+    width: 100%;
+    float: left;
 }
 
 #sidebar1 .widget li{
-    background-color: #676566;
+    background-color: #4C4C4C;
     padding: 3px 10px;
+    float: left;
+    width: 100%;
+}
+
+.vertical #sidebar1 .widget{
+    width: 100%;
+    margin: 0 0 2em;
+}
+
+.vertical #sidebar1 {
+    margin-top: 1.5em;
+}
+
+.vertical .widgettitle{
+    margin-top: 0;
+    padding-bottom: 8px;
+}
+
+#twitter-container{
+    float: left;
+    width: 100%;
+    padding: 0 10px;
 }
 
 .nav>li{
@@ -293,7 +323,13 @@ ul.follow-me li{
 }
 
 ul.media-links {
-    float: left;
+    float: right;
+}
+
+.single ul.media-links,
+.archive ul.media-links,
+.page ul.media-links{
+    margin: 3px 0.3em;
 }
 
 ul.media-links li{
@@ -324,4 +360,57 @@ ul.media-links .twitter a {
 
 ul.media-links .email a {
     background-position: 0 -66px;
+}
+
+.single .right-col,
+.archive .right-col,
+.page .right-col{
+    min-height: 0;
+}
+
+.single #menu-top-nav li a,
+.archive #menu-top-nav li a,
+.page #menu-top-nav li a{
+    padding: 19px 15px;
+    margin-top: 2px;
+}
+
+.single .twitter,
+.archive .twitter,
+.page .twitter{
+    clear: both;
+}
+
+.nav{
+    float: left;
+}
+
+.logo{
+    float: left;
+    padding: 0 0.8em;
+}
+
+.logo h2{
+    font-size: 34px;
+    margin: 3px 0 0 0;
+}
+
+.logo h4{
+    margin: 0 0 10px;
+    font-size: 13px;
+}
+
+div#disqus_thread {
+    margin-top: 40px;
+}
+
+footer.article-footer > a {
+    text-decoration: underline;
+    color: #FFF;
+}
+
+h1 a,
+h1 a:visited{
+    font-size: 36px;
+    color: #FFF;
 }
