@@ -91,10 +91,10 @@
     					         'fallback_cb' => ''                             // fallback function (if there is one)
 						)); }?>
                         <ul class="media-links nav">
-                            <li class="github"><a href="#"></a></li>
-                            <li class="linkedin"><a href="#"></a></li>
-                            <li class="twitter"><a href="#"></a></li>
-                            <li class="email"><a href="#"></a></li>
+                            <li class="github"><a href="https://github.com/aIbarrab"></a></li>
+                            <li class="linkedin"><a href="https://cr.linkedin.com/in/aibarrab"></a></li>
+                            <li class="twitter"><a href="https://twitter.com/aibarrab"></a></li>
+                            <li class="email"><a href="mailto:arjos8@gmail.com"></a></li>
                         </ul>
 					</nav>
 
