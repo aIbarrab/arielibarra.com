@@ -18,7 +18,9 @@
 
                 <header class="article-header entry-header">
 
-                  <h1 class="entry-title single-title" itemprop="headline" rel="bookmark"><?php the_title(); ?></h1>
+                  <h1 class="entry-title single-title" itemprop="headline" rel="bookmark">
+                      <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+                  </h1>
 
                   <p class="byline entry-meta vcard">
 
@@ -65,8 +67,8 @@
 
                   <?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
 
+                  <?php comments_template(); ?>
                 </footer> <?php // end article footer ?>
 
-                <?php //comments_template(); ?>
 
               </article> <?php // end article ?>

@@ -20,8 +20,8 @@
 
 <!--					<p class="source-org copyright">&copy; --><?php //echo date('Y'); ?><!-- arielibarra.com</p>-->
                     <ul class="follow-me">
-                        <li>&copy; <?php echo date('Y'); ?> arielibarra.com</li>
-                        <li>|</li>
+                        <li class="hidden-xs">&copy; <?php echo date('Y'); ?> arielibarra.com</li>
+                        <li class="hidden-xs">|</li>
                         <li>follow me on</li>
                         <li>
                             <a target="_blank" href="https://github.com/aIbarrab">

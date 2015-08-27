@@ -1,0 +1,59 @@
+.logo{
+  float: left;
+  padding: 0 0.8em;
+  h2{
+    font-size: 34px;
+    margin: 3px 0 0 0;
+  }
+  h4{
+    margin: 0 0 10px;
+    font-size: 13px;
+  }
+}
+
+.nav{
+  float: left;
+  li{
+    @extend .nav;
+    a{
+      padding: 5px 15px;
+      &:hover{
+        background-color: #2DAECE;
+      }
+    }
+  }
+}
+
+.media-links{
+  float: right;
+  li{
+    margin-right: 5px;
+    margin-top: 5px;
+    float: left;
+    a{
+      padding: 0;
+      width: 20px;
+      height: 20px;
+      background-color: #FFF;
+      background: url("/wp-content/themes/eddiemachado-bones-9db85e4/library/images/media-icons.png");
+    }
+  }
+  .github a {
+    background-position: 0 -44px;
+  }
+  .linkedin a {
+    background-position: 0 -22px;
+  }
+  .twitter a {
+    background-position: 0 -110px;
+  }
+  .email a {
+    background-position: 0 -66px;
+  }
+}
+
+.single ul.media-links,
+.archive ul.media-links,
+.page ul.media-links{
+  margin: 3px 0.3em;
+}

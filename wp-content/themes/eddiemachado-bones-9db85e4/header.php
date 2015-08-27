@@ -59,19 +59,24 @@
 
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
-				<div id="inner-header" class="wrap cf">
+				<div id="inner-header" class="container<?php echo (is_home() ? '-fluid' : '') ?> cf">
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 <!--					<p id="logo" class="h1" itemscope itemtype="http://schema.org/Organization"><a href="--><?php //echo home_url(); ?><!--" rel="nofollow">--><?php //bloginfo('name'); ?><!--</a></p>-->
 
+                    <?php if (!is_home()) {?>
+                    <div class="logo hidden-xs">
+                        <h2 class="my-name">Ariel Ibarra</h2>
+                        <h4 class="position">Full-Stack Web Developer</h4>
+                    </div>
+                    <?php } ?>
 
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-                        <ul class="media-links nav">
-                            <li class="github"><a href="#"></a></li>
-                            <li class="linkedin"><a href="#"></a></li>
-                            <li class="twitter"><a href="#"></a></li>
-                            <li class="email"><a href="#"></a></li>
+                        <?php if (is_home()) {?>
+                        <ul id="menu-top-nav" class="nav top-nav cf">
+                            <li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5"><a href="/blog">> Blog</a></li>
                         </ul>
+                        <?php } else {?>
 						<?php wp_nav_menu(array(
     					         'container' => false,                           // remove nav container
     					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
@@ -84,8 +89,13 @@
         			               'link_after' => '',                             // after each link
         			               'depth' => 0,                                   // limit the depth of the nav
     					         'fallback_cb' => ''                             // fallback function (if there is one)
-						)); ?>
-
+						)); }?>
+                        <ul class="media-links nav">
+                            <li class="github"><a href="https://github.com/aIbarrab"></a></li>
+                            <li class="linkedin"><a href="https://cr.linkedin.com/in/aibarrab"></a></li>
+                            <li class="twitter"><a href="https://twitter.com/aibarrab"></a></li>
+                            <li class="email"><a href="mailto:arjos8@gmail.com"></a></li>
+                        </ul>
 					</nav>
 
 				</div>
