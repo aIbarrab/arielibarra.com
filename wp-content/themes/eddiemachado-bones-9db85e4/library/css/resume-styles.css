@@ -1,416 +1,301 @@
+/**********************
+GLOBALS
+**********************/
+/**********************
+TYPOGRAPHY
+**********************/
 @font-face {
-    font-family: Market Deco Regular;
-    src: url(Market_Deco.ttf);
-}
-
+  font-family: Market Deco Regular;
+  src: url(../fonts/Market_Deco.ttf); }
 @font-face {
-    font-family: Exo Bold;
-    src: url(Exo-Bold.otf);
-}
-
+  font-family: Exo Bold;
+  src: url(../fonts/Exo-Bold.otf); }
 @font-face {
-    font-family: Exo Light;
-    src: url(Exo-Light.otf);
-}
+  font-family: Exo Light;
+  src: url(../fonts/Exo-Light.otf); }
+/**********************
+IMPORTING THEME STYLES
+**********************/
+* {
+  color: #FFF;
+  font-family: "Exo Light", Exo, Arial, Helvetica;
+  font-size: 12pt; }
 
-*{
-    color: #FFF;
-    font-family: "Exo Light", Exo, Arial, Helvetica;
-    font-size: 12pt;
-}
+body {
+  background-color: #525354; }
 
-body{
-    background-color: #525354;
-}
+.single #content-body, .archive #content-body, .page #content-body {
+  padding-top: 58px; }
+.single .right-col, .archive .right-col, .page .right-col {
+  min-height: 0; }
+.single #menu-top-nav li a, .archive #menu-top-nav li a, .page #menu-top-nav li a {
+  padding: 19px 15px;
+  margin-top: 2px; }
+.single .twitter, .archive .twitter, .page .twitter {
+  clear: both; }
 
-.nav {
-    float: right;
-}
-
-.nav > li > a:hover{
-    background-color: #2DAECE;
-}
-
-.nav > li > a{
-    padding: 5px 15px;
-}
-
-#content-body{
-    padding-top: 32px;
-}
-
-.single #content-body,
-.archive #content-body,
-.page #content-body{
-    padding-top: 58px;
-}
+#content-body {
+  padding-top: 32px; }
 
 hr {
-    border-top: 1px solid #999;
-}
+  border-top: 1px solid #999; }
 
-h4{
-    font-size: 16px;
-}
+h4 {
+  font-size: 16px; }
 
-.my-name{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 42px;
-    margin-bottom: 0;
-    color: #FFF;
-}
+h1 a, h1 a:visited {
+  font-size: 36px;
+  color: #FFF; }
 
-.position{
-    font-family: "Market Deco Regular";
-    text-align: center;
-    margin-top: 0;
-    color: #FFF;
-}
+.light-blue {
+  font-weight: bold;
+  color: #33c4e8;
+  font-family: "Market Deco Regular"; }
 
-.passport-photo{
-    width: 100%;
-    margin: 35px auto;
-    max-width: 275px;
-    display: block;
-}
-
-.job-title span {
-    color: #FFF;
-    font-family: "Exo Bold", Exo, Arial, Helvetica;
-    font-size: 13pt;
-    text-transform: uppercase;
-}
-
-h2.light-blue{
-    font-size: 18pt;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 25px;
-}
-
-h2.light-blue img{
-    width: 50px;
-    height: 49px;
-}
-
-h2.light-blue::after{
+h2.light-blue {
+  font-size: 18pt;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 25px; }
+  h2.light-blue:after {
     content: "";
     float: left;
     width: 100%;
     background: url("/wp-content/themes/eddiemachado-bones-9db85e4/library/images/titles_bg.png") 0 1px;
     height: 43px;
     position: absolute;
-    margin-left: 10px;
-}
-
-h2.skills.light-blue::after {
+    margin-left: 10px; }
+  h2.light-blue.skills:after {
     height: 26px;
-    background-position: 0 -9px;
-}
+    background-position: 0 -9px; }
+  h2.light-blue img {
+    width: 50px;
+    height: 49px; }
 
-.light-blue{
-    font-weight: bold;
-    color: #33c4e8;
-    font-family: "Market Deco Regular";
-}
+.right-col {
+  background-color: #414142;
+  padding-bottom: 45px;
+  min-height: 1800px; }
 
-.info-box{
-    margin-top: 20px;
-}
+.skills-list {
+  line-height: 35px;
+  font-size: 11pt;
+  text-align: justify; }
 
-.info-box > ul {
+.separator {
+  float: left;
+  width: 100%;
+  height: 20px; }
+
+#resume p:not(.job-title) {
+  text-align: justify; }
+
+p.source-org.copyright {
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 9pt; }
+
+.glyphicon {
+  top: 3px; }
+  .glyphicon:before {
+    color: #FF0000; }
+
+a.download {
+  margin: 70px auto;
+  width: 150px;
+  float: none;
+  display: block;
+  font-weight: bold;
+  color: #FF0000; }
+
+.icon {
+  width: 2em; }
+
+div#disqus_thread {
+  margin-top: 40px; }
+
+footer.article-footer > a {
+  text-decoration: underline;
+  color: #FFF; }
+
+ul.follow-me {
+  font-weight: bold;
+  margin: 0 auto;
+  width: 380px;
+  line-height: 30px; }
+  ul.follow-me li {
+    color: #FFF;
+    float: left;
+    margin: 10px 10px 10px 0; }
+
+.logo {
+  float: left;
+  padding: 0 0.8em; }
+  .logo h2 {
+    font-size: 34px;
+    margin: 3px 0 0 0; }
+  .logo h4 {
+    margin: 0 0 10px;
+    font-size: 13px; }
+
+.nav, .nav li {
+  float: left; }
+  .nav li a {
+    padding: 5px 15px; }
+    .nav li a:hover {
+      background-color: #2DAECE; }
+
+.media-links {
+  float: right; }
+  .media-links li {
+    margin-right: 5px;
+    margin-top: 5px;
+    float: left; }
+    .media-links li a {
+      padding: 0;
+      width: 20px;
+      height: 20px;
+      background-color: #FFF;
+      background: url("/wp-content/themes/eddiemachado-bones-9db85e4/library/images/media-icons.png"); }
+  .media-links .github a {
+    background-position: 0 -44px; }
+  .media-links .linkedin a {
+    background-position: 0 -22px; }
+  .media-links .twitter a {
+    background-position: 0 -110px; }
+  .media-links .email a {
+    background-position: 0 -66px; }
+
+.single ul.media-links,
+.archive ul.media-links,
+.page ul.media-links {
+  margin: 3px 0.3em; }
+
+.my-name {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  margin-bottom: 0;
+  color: #FFF; }
+
+.position {
+  font-family: "Market Deco Regular";
+  text-align: center;
+  margin-top: 0;
+  color: #FFF; }
+
+.passport-photo {
+  width: 100%;
+  margin: 35px auto;
+  max-width: 275px;
+  display: block; }
+
+.job-title span {
+  color: #FFF;
+  font-family: "Exo Bold", Exo, Arial, Helvetica;
+  font-size: 13pt;
+  text-transform: uppercase; }
+
+#sidebar1 {
+  float: left;
+  width: 100%; }
+  #sidebar1 .widget {
+    float: left;
+    width: 33.3%; }
+    #sidebar1 .widget li {
+      background-color: #4C4C4C;
+      padding: 3px 10px;
+      float: left;
+      width: 100%; }
+      #sidebar1 .widget li a {
+        color: #FFF;
+        width: 100%;
+        float: left; }
+
+.vertical .widgettitle {
+  margin-top: 0;
+  padding-bottom: 8px; }
+.vertical #sidebar1 {
+  margin-top: 1.5em; }
+  .vertical #sidebar1 .widget {
+    width: 100%;
+    margin: 0 0 2em; }
+
+.info-box {
+  margin-top: 20px; }
+  .info-box a {
+    color: #FFF; }
+  .info-box > ul {
     float: left;
     padding: 25px 20px 5px;
     margin: 0;
     background-color: #514f50;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    border-radius: 5px;
-}
-
-.info-box a {
-    color: #FFF;
-}
-
-.right-col{
-    background-color: #414142;
-    padding-bottom: 45px;
-    min-height: 1800px;
-}
-
-.info-box li img {
-    width: 30px;
-    height: 30px;
-    top: -2px;
-    position: relative;
-}
-
-.info-box li, .info-box li a{
-    font-size: 13px;
-}
-
-.info-box li {
+    border-radius: 5px; }
+  .info-box li {
     line-height: 30px;
     height: 25px;
     float: left;
     width: 100%;
-    margin-bottom: 13px;
-}
-
-.skills-list{
-    line-height: 35px;
-    font-size: 11pt;
-    text-align: justify;
-}
-
-.separator{
-    float: left;
-    width: 100%;
-    height: 20px;
-}
-
-#resume p:not(.job-title){
-    text-align: justify;
-}
-
-p.source-org.copyright {
-    text-align: center;
-    color: #FFF;
-    font-weight: bold;
-    margin-top: 10px;
-    font-size: 9pt;
-}
-
-.glyphicon{
-    top: 3px;
-}
-
-.glyphicon::before {
-    color: #FF0000;
-}
-
-a.download {
-    margin: 70px auto;
-    width: 150px;
-    float: none;
-    display: block;
-    font-weight: bold;
-    color: #FF0000;
-}
-
-blockquote:before {
-    content:'\201C';
-    margin:1em -.15em 1em -.15em	;
-    color:#33a8e5;
-    padding-left: 5px;
-    font-size:60px;
-    line-height:12px;
-    vertical-align:middle;
-    font-weight:bold;
-    font-family:Arial, Helvetica, sans-serif;
-}
+    margin-bottom: 13px; }
+    .info-box li img {
+      width: 30px;
+      height: 30px;
+      top: -2px;
+      position: relative; }
+    .info-box li, .info-box li a {
+      font-size: 13px; }
 
 blockquote {
-    background-color: #514f50;
-    padding: 1.5em 1em 1.5em 1em;
-    width: 100%;
-    border: 0px solid #000;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    color: #f2f2f2;
-}
-
-blockquote p {
-    margin:0;
-    padding:0;
+  background-color: #514f50;
+  padding: 1.5em 1em 1.5em 1em;
+  width: 100%;
+  border: 0px solid #000;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #f2f2f2; }
+  blockquote p {
+    margin: 0;
+    padding: 0;
     line-height: 25px;
-    text-align: center;
-}
-
-cite:before {
-    content:'\201D';
-    display:block;
-    text-align:right;
-    font-style:normal;
-    margin:0;
-    color:#33a8e5;
+    text-align: center; }
+  blockquote:before {
+    content: '\201C';
+    margin: 1em -0.15em 1em -0.15em;
+    color: #33a8e5;
     padding-left: 5px;
-    vertical-align:middle;
-    font-size:60px;
-    font-weight:bold;
-    font-family:Arial, Helvetica, sans-serif;
-}
+    font-size: 60px;
+    line-height: 12px;
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; }
 
 cite {
-    text-align:right;
-    display:block;
-    font-style:italic;
-    color: #FFF;
-    font-weight: bold;
-}
-
-cite span {
+  text-align: right;
+  display: block;
+  font-style: italic;
+  color: #FFF;
+  font-weight: bold; }
+  cite span {
     font-size: 12px;
     clear: both;
     float: right;
-    width: 100%;
-}
-
-.icon{
-    width: 2em;
-}
-
-ul.follow-me{
+    width: 100%; }
+  cite:before {
+    content: '\201D';
+    display: block;
+    text-align: right;
+    font-style: normal;
+    margin: 0;
+    color: #33a8e5;
+    padding-left: 5px;
+    vertical-align: middle;
+    font-size: 60px;
     font-weight: bold;
-    margin: 0 auto;
-    width: 380px;
-    line-height: 30px;
-}
+    font-family: Arial, Helvetica, sans-serif; }
 
-ul.follow-me li{
-    color: #FFF;
-    float: left;
-    margin: 10px 10px 10px 0;
-}
-
-#sidebar1 {
-    float: left;
-    width: 100%;
-}
-
-#sidebar1 .widget {
-    float: left;
-    width: 33.3%;
-}
-
-#sidebar1 .widget li a{
-    color: #FFF;
-    width: 100%;
-    float: left;
-}
-
-#sidebar1 .widget li{
-    background-color: #4C4C4C;
-    padding: 3px 10px;
-    float: left;
-    width: 100%;
-}
-
-.vertical #sidebar1 .widget{
-    width: 100%;
-    margin: 0 0 2em;
-}
-
-.vertical #sidebar1 {
-    margin-top: 1.5em;
-}
-
-.vertical .widgettitle{
-    margin-top: 0;
-    padding-bottom: 8px;
-}
-
-#twitter-container{
-    float: left;
-    width: 100%;
-    padding: 0 10px;
-}
-
-.nav>li{
-    float: left;
-}
-
-ul.media-links {
-    float: right;
-}
-
-.single ul.media-links,
-.archive ul.media-links,
-.page ul.media-links{
-    margin: 3px 0.3em;
-}
-
-ul.media-links li{
-    margin-right: 5px;
-    margin-top: 5px;
-    float: left;
-}
-
-ul.media-links li a{
-    padding: 0;
-    width: 20px;
-    height: 20px;
-    background-color: #FFF;
-    background: url("/wp-content/themes/eddiemachado-bones-9db85e4/library/images/media-icons.png");
-}
-
-ul.media-links .github a {
-    background-position: 0 -44px;
-}
-
-ul.media-links .linkedin a {
-    background-position: 0 -22px;
-}
-
-ul.media-links .twitter a {
-    background-position: 0 -110px;
-}
-
-ul.media-links .email a {
-    background-position: 0 -66px;
-}
-
-.single .right-col,
-.archive .right-col,
-.page .right-col{
-    min-height: 0;
-}
-
-.single #menu-top-nav li a,
-.archive #menu-top-nav li a,
-.page #menu-top-nav li a{
-    padding: 19px 15px;
-    margin-top: 2px;
-}
-
-.single .twitter,
-.archive .twitter,
-.page .twitter{
-    clear: both;
-}
-
-.nav{
-    float: left;
-}
-
-.logo{
-    float: left;
-    padding: 0 0.8em;
-}
-
-.logo h2{
-    font-size: 34px;
-    margin: 3px 0 0 0;
-}
-
-.logo h4{
-    margin: 0 0 10px;
-    font-size: 13px;
-}
-
-div#disqus_thread {
-    margin-top: 40px;
-}
-
-footer.article-footer > a {
-    text-decoration: underline;
-    color: #FFF;
-}
-
-h1 a,
-h1 a:visited{
-    font-size: 36px;
-    color: #FFF;
-}
+/*# sourceMappingURL=resume-styles.css.map */
