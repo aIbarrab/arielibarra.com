@@ -1,0 +1,31 @@
+.info-box{
+  margin-top: 20px;
+  a {
+    color: #FFF;
+  }
+  &> ul {
+    float: left;
+    padding: 25px 20px 5px;
+    margin: 0;
+    background-color: #514f50;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  li {
+    line-height: 30px;
+    height: 25px;
+    float: left;
+    width: 100%;
+    margin-bottom: 13px;
+    img {
+      width: 30px;
+      height: 30px;
+      top: -2px;
+      position: relative;
+    }
+    &, a{
+      font-size: 13px;
+    }
+  }
+}

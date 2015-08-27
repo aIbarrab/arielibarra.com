@@ -1,0 +1,34 @@
+/**********************
+TYPOGRAPHY
+**********************/
+
+@font-face {
+  font-family: Market Deco Regular;
+  src: url(../fonts/Market_Deco.ttf);
+}
+
+@font-face {
+  font-family: Exo Bold;
+  src: url(../fonts/Exo-Bold.otf);
+}
+
+@font-face {
+  font-family: Exo Light;
+  src: url(../fonts/Exo-Light.otf);
+}
+
+/**********************
+IMPORTING THEME STYLES
+**********************/
+
+// global styles
+@import "modules/global";
+
+// navigation styles
+@import "modules/navigation";
+
+// left column styles
+@import "modules/aside";
+
+// cite box
+@import "modules/cite";
