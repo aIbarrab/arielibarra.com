@@ -11,7 +11,7 @@
                             <h4 class="position">Full-Stack Web Developer</h4>
                             <img class="passport-photo" src="<?php echo get_template_directory_uri(); ?>/library/images/passport-photo.png">
                             <p class="job-title" style="text-align: center">
-                                <span>CURRENT POSITION</span><br>Web Developer<br>at Rivet Logic Corporation
+                                <span>CURRENT POSITION</span><br>Sr. Web Developer<br>at Janeiro Digital
                             </p>
                         </div>
                     </div>
@@ -54,6 +54,10 @@
                                 <b>Git Branching Model</b> + SVN +
 
                                 <b>Javascript Design Patterns</b> + MVC
+
+                                + <b>Backbone.js</b> + Bower + Grunt +
+
+                                Composer + Vagrant + Homestead + Gulp
                             </p>
                             <hr>
                         </div>
@@ -109,7 +113,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">
-                            <p class="job-title"><span>Web Developer:</span> BVMedia. FEB 2014 - JULY 2015</p>
+                            <p class="job-title"><span>Sr. Web Developer:</span> BVMedia. FEB 2014 - JULY 2015</p>
                             <p>
                                 As a Web Developer at BVMedia, I contributed to the development, execution, quality
                                 assurance and testing of all marketed web sites.
