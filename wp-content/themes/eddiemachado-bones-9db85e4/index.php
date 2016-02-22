@@ -27,7 +27,7 @@
                                 </li>
                                 <li class="email">
                                     <img src="<?php echo get_template_directory_uri(); ?>/library/images/icons_08.png">
-                                    arjos8@gmail.com
+                                    letstalk@arielibarra.com
                                 </li>
                                 <li class="linkein">
                                     <img src="<?php echo get_template_directory_uri(); ?>/library/images/icons_10.png">
